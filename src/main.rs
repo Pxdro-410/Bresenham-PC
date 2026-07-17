@@ -14,8 +14,8 @@ fn main() {
 
     framebuffer.set_current_color(0xFFFFFF);
 
-    draw_line(100, 300, 700, 300, &mut framebuffer);
-    draw_line(400, 100, 400, 500, &mut framebuffer);
+    draw_line(150, 100, 700, 300, &mut framebuffer);
+    draw_line(440, 100, 400, 500, &mut framebuffer);
     framebuffer.point(0, 0);
 
     let _ = framebuffer.render_buffer("out.bmp");
